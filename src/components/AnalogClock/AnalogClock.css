@@ -1,17 +1,19 @@
 .clock__circle {
   position: relative;
-  width: 260px;
-  height: 260px;
-  box-shadow: -6px -6px 16px var(--white-color),
+  width: 200px;
+  height: 200px;
+  border: 11px solid black;
+  /* box-shadow: -6px -6px 16px var(--white-color),
     6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1),
     inset 6px 6px 16px hsla(var(--hue-color), 30%, 86%, 1),
-    inset -6px -6px 16px var(--white-color);
+    inset -6px -6px 16px var(--white-color); */
   border-radius: 50%;
   justify-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.4s;
+  background: white;
 }
 
 .alarm-icon {
